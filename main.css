@@ -19,3 +19,12 @@ section {
 .nav i {vertical-align: middle;}
 .alert ul li {margin: 8px 0;}
 .alert i {vertical-align: bottom;}
+
+h1.logo{
+
+	background-image: url(..img/visu.png);
+	width: 495px;
+	height: 152px;
+	text-align: center;
+	
+}
