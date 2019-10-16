@@ -1,6 +1,3 @@
-/*!
-qualquer coisa procurar @rdmuniz :);
- */
 body {
 	padding-top: 60px;
 	padding-bottom: 40px;
@@ -15,6 +12,7 @@ section {
 	margin-top: 50px;
 	padding-bottom: 30px;
 }
+
 #aulas {margin-top: 0;}
 .nav i {vertical-align: middle;}
 .alert ul li {margin: 8px 0;}
@@ -27,7 +25,6 @@ h1.logo{
     text-align: center;
     width: 495px;
 	height: 152px;
-z-index: 9999;
+	z-index: 9999;
     background: url(../img/visu.png) no-repeat;
-
 }
