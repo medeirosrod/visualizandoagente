@@ -21,7 +21,7 @@ section {
 h1.logo{
     position: absolute;
     top: 35px;
-    left: 0;
+    left: 10px;
     text-align: center;
     width: 495px;
 	height: 152px;
