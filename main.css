@@ -21,10 +21,13 @@ section {
 .alert i {vertical-align: bottom;}
 
 h1.logo{
-
-	background-image: url(..img/visu.png);
-	width: 495px;
+    position: absolute;
+    top: 35px;
+    left: 0;
+    text-align: center;
+    width: 495px;
 	height: 152px;
-	text-align: center;
-	
+z-index: 9999;
+    background: url(../img/visu.png) no-repeat;
+
 }
