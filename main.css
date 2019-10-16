@@ -22,6 +22,7 @@ section {
 
 h1.logo{
 <<<<<<< HEAD
+<<<<<<< HEAD
 	background-image: url("../img/visu.png");
 	width: 495px;
 	height: 152px;
@@ -35,5 +36,16 @@ h1.logo{
 	height: 152px;
 	text-align: center;
 	
+>>>>>>> master
+=======
+    position: absolute;
+    top: 35px;
+    left: 0;
+    text-align: center;
+    width: 495px;
+	height: 152px;
+z-index: 9999;
+    background: url(../img/visu.png) no-repeat;
+
 >>>>>>> master
 }
