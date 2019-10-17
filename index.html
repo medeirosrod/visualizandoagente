@@ -1,69 +1,47 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>Projeto Integrador - Visualizando a gente -  2019 - IFPB Cabedelo</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="robots" content="noindex, nofollow">
+    <html lang="pt-BR">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            
+            <title>Visualizando a gente - IFPB Cabedelo</title>
 
-    <!-- Le styles -->
-    <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,600italic,400,bold,700' rel='stylesheet' type='text/css'>
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link href="main.css" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css?family=Fira+Sans:400,700&display=swap" rel="stylesheet">
+           
+            <link rel="stylesheet" href="css/reset.css">
+            <link rel="stylesheet" href="css/base.css">
+            <link rel="stylesheet" href="css/function.css">
+            <link rel="stylesheet" href="css/header.css">
+            <link rel="stylesheet" href="css/featured.css">
 
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-  </head>
+        </head>
 
-  <body data-spy="scroll">
-
-    <div class="container">
-          <div class="page-header">
-            <img src="http://rodrigomedeiros.com.br/visualizandoagente/img/visu.png" width="495" height="152" align="container">
-            <!-- <h1 class="logo"> Visualizando a gente - 2019 - 1 MM</h1> -->
-          </div>         
-
-      <!-- <footer>
-
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.pt_BR"><img alt="Licença Creative Commons" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/80x15.png" /></a><br />Este obra foi licenciado sob uma Licença <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/deed.pt_BR">Creative Commons Atribuição-CompartilhaIgual 3.0 Não Adaptada</a>.
-
-      </footer> -->
-
-    </div><!--/.container-->
-
-
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script type="text/javascript">
-
-$(document).ready(function () {  
-    $('.sidebar-nav .nav').scrollspy()
-
-  var top = $('.sidebar-nav').offset().top - parseFloat($('.sidebar-nav').css('marginTop').replace(/auto/, 0));
-  $(window).scroll(function (event) {
-    // what the y position of the scroll is
-    var y = $(this).scrollTop();
-  
-    // whether that's below the form
-    if (y >= top) {
-      // if so, ad the fixed class
-      $('.sidebar-nav').addClass('fixed');
-      $('#main-content').addClass('offset4');
-
-    } else {
-      // otherwise remove it
-      $('.sidebar-nav').removeClass('fixed');
-      $('#main-content').removeClass('offset4');
-    }
-  });
-});
-
-    </script>
-
-  </body>
-</html>
+        <body>
+            <header class="header container">
+                <img class="logo" src="img/logo-branca.png" alt="Logo">
+                <ul class="menu">
+                    <li class="itemMenu">
+                        <a class="nomeMenu" href="#">Sobre</a>
+                    </li>
+                    <li class="itemMenu">
+                            <a class="nomeMenu" href="#">Metodologia</a>
+                        </li>
+                        <li class="itemMenu">
+                                <a class="nomeMenu" href="#">Equipe</a>
+                            </li>
+                </ul>
+            </header>
+            <section class="featured container">
+                <ul class="coluna1">
+                      <li>
+                            <h1 class="title">Visualização de dados no Ensino Médio</h1>
+                      </li>
+                      <li>
+                            <p class="text">O projeto Visualização a gente aconteceu com alunos do Curso Técnico Integrado em Multimídia do IFPB - Campus Cabedelo.</p>
+                      </li>
+                </ul>                    
+                <img class="imgHero" src="img/olho-1.png" alt="">
+            </section>
+        </body>
+    </html>
