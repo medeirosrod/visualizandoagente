@@ -12,7 +12,7 @@ height: 700px;
     font-size: 70px;;
     font-weight: bold;
     max-width: 70%;
-    margin-top: 120px;
+    margin-top: 100px;
     color: #ffffff;
 }
 
@@ -29,9 +29,134 @@ height: 700px;
     width: 200px;
     height: 200px;
     float: right;
-    margin: 0 10% 0 0;
+    margin: 80px 10% 0 0;
 }
 
 .featured .coluna1 {
 margin: 0 0 0 10%;
+}
+
+.featured .scrollDown {
+    margin-top: 50px;
+}
+
+.featured2 {
+    display: flex;
+    margin-top: 110px;
+    margin-bottom: 100px;
+}
+
+.featured2 .img {
+    margin-left: 17%;
+    width: 340px;
+    height: 340px;
+}
+
+.featured2 .title {
+    font-size: 60px;;
+    font-weight: bold;
+    max-width: 70%;
+    color: #000;
+    margin-left: 30px;
+}
+
+.featured2 .text {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 33px;
+    margin-top: 26px;
+    max-width: 50%;
+    color: #000;
+    margin-left: 30px;
+}
+
+.featured2 .botão {
+    margin-top: 26px;
+    margin-left: 30px;
+    background-color: #EDF3F6;
+    color: #0000ff;
+    border: 3px solid #0000ff;
+    padding: 10px 15px 10px 15px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.featured2 .textoBotão {
+    text-decoration: none;
+    color: #00f;
+}
+
+.featured3 {
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.featured3 .title {
+    font-size: 60px;;
+    font-weight: bold;
+    max-width: 80%;
+    color: #000;
+    margin-left: 15%;
+}
+
+.featured3 .text {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 33px;
+    margin-top: 26px;
+    max-width: 50%;
+    color: #000;
+    margin-left: 15%;
+    width: 440px;
+}
+
+.featured3 .botão {
+    margin-top: 26px;
+    margin-left: 15%;
+    background-color: #EDF3F6;
+    color: #0000ff;
+    border: 3px solid #0000ff;
+    padding: 10px 15px 10px 15px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
+
+}
+
+.featured3 .textoBotão {
+    text-decoration: none;
+    color: #00f;
+}
+
+.featured3 .title2 {
+    font-size: 60px;;
+    font-weight: bold;
+    max-width: 80%;
+    color: #000;
+}
+
+.featured3 .text2 {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 33px;
+    margin-top: 26px;
+    max-width: 80%;
+    color: #000;
+    width: 440px;
+}
+
+.featured3 .botão2 {
+    margin-top: 26px;
+    background-color: #EDF3F6;
+    color: #0000ff;
+    border: 3px solid #0000ff;
+    padding: 10px 15px 10px 15px;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 5px;
 }

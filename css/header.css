@@ -16,15 +16,18 @@
     max-width: 395px;
     align-self: center;
     margin-right: 10%;
+    text-decoration: none;
 }
 
 .itemMenu {
     margin: 0 0 0 70px;
     font-weight: bold;
-   	
 }
 
 .nomeMenu:link {
     text-decoration: none;
+}
+
+.header .nomeMenu {
     color: white;
 }
