@@ -36,7 +36,6 @@ hr {
     background-image:url(img/background-hero.png);
 }
 
-
 .nav-link{
 font-family: Fira Sans;
 font-style: normal;
@@ -48,15 +47,3 @@ letter-spacing: 2px;
 color: #FFFFFF;
 }
 a.nav-link:hover{text-decoration:}
-
-h2.home{
-font-family: Fira Sans;
-font-style: normal;
-font-weight: bold;
-font-size: 75px;
-line-height: 105px;
-/* or 125% */
-
-letter-spacing: -1px;
-color: #FFFFFF;
-}
